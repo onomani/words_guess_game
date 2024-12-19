@@ -30,6 +30,7 @@ while turns_taken < max_turns:
     if len(guess) != len(word_to_guess) or not guess.isalpha():
         print('Please enter 5-letter word.')
         continue
+    # RRR
 
     # Check each letter in the guess against the word's letters
     index = 0
